@@ -23,8 +23,7 @@ num=gets.chomp.to_i
 count=0
 if (num==0)
 	puts "0 is not prime"
-else
-	
+else	
 	i=2
 	while(i<num)
 		if (num%i==0)
